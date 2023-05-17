@@ -1,10 +1,10 @@
 import pandas as pd
 import streamlit as st
 
-batsmen_path     = "C:\\Users\\ramka\\Downloads\\archive (22)\\IPL2023_Batsman.csv"
-bowler_path      = "C:\\Users\\ramka\\Downloads\\archive (22)\\IPL2023_Bowler.csv"
-scoreboard_path  = "C:\\Users\\ramka\\Downloads\\archive (22)\\IPL2023_Match_Scoreboard.csv"
-matches_path     = "C:\\Users\\ramka\\Downloads\\archive (22)\\IPL2023_Matches.csv"
+batsmen_path     = "https://raw.githubusercontent.com/RamKaushal/Steamlit/main/IPL2023_Batsman.csv"
+bowler_path      = "https://raw.githubusercontent.com/RamKaushal/Steamlit/main/IPL2023_Bowler.csv"
+scoreboard_path  = "https://raw.githubusercontent.com/RamKaushal/Steamlit/main/IPL2023_Match_Scoreboard.csv"
+matches_path     = "https://raw.githubusercontent.com/RamKaushal/Steamlit/main/IPL2023_Matches.csv"
 
 batsmen_df = pd.read_csv(batsmen_path,encoding = 'unicode_escape')
 bowler_df = pd.read_csv(bowler_path)
